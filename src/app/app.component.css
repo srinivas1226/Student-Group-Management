@@ -1,0 +1,45 @@
+header {
+    background: linear-gradient(135deg, #6f00ff, #ff5733);
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .header-left h1 {
+    margin: 0;
+  }
+
+  .name{
+    font-weight: bold;
+  }
+
+  .main{
+    height: 82vh;
+    background: lightblue;
+  }
+  
+  .header-right button {
+    margin-left: 10px;
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  footer {
+    background: linear-gradient(135deg, #6f00ff, #ff5733);
+    color: white;
+    padding: 10px 20px;
+    text-align: right;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+
+  button {
+    cursor: pointer;
+  }
+  

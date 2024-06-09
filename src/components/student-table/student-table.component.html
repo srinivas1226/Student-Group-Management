@@ -1,0 +1,74 @@
+<div class="container">
+  <div class="table-container">
+    <div class="table-header">Student List</div>
+    <div cdkDropList (cdkDropListDropped)="drop($event, 'students')">
+      <p-table [columns]="header" [value]="students" [scrollable]="true" scrollHeight="400px">
+        <ng-template pTemplate="header" let-columns>
+          <tr>
+            <th style="width:8%"></th>
+            <th *ngFor="let col of columns" >{{ col.header }}</th>
+            <th >Action</th>
+          </tr>
+        </ng-template>
+        <ng-template pTemplate="body" let-rowData let-columns="columns" let-ind="rowIndex">
+          <tr cdkDrag [cdkDragData]="rowData" [pSelectableRow]="rowData" class="draggable-row"
+              (cdkDragStarted)="dragStart($event, rowData, 'student')" (cdkDragEnded)="dragEnd($event, rowData, 'student')">
+            <td cdkDragHandle class="drag-icon" style="width:8%">
+              <i class="pi pi-bars"></i>
+            </td>
+            <td *ngFor="let col of columns" pEditableColumn >
+              <p-cellEditor>
+                <ng-template pTemplate="input">
+                  <input pInputText type="text" [(ngModel)]="rowData[col.field]" />
+                </ng-template>
+                <ng-template pTemplate="output">
+                  {{ rowData[col.field] }}
+                </ng-template>
+              </p-cellEditor>
+            </td>
+            <td>
+              <button class="delete-button" (click)="delete(ind,rowData)">Delete</button>
+            </td>
+          </tr>
+        </ng-template>
+      </p-table>
+    </div>
+  </div>
+  
+  <div class="table-container">
+    <div class="table-header">Cricket Team List</div>
+    <div cdkDropList (cdkDropListDropped)="drop($event, 'cricket')" >
+      <p-table [columns]="header" [value]="cricketTeam" [scrollable]="true" scrollHeight="400px">
+        <ng-template pTemplate="header" let-columns>
+          <tr>
+            <th style="width:8%"></th>
+            <th *ngFor="let col of columns">{{ col.header }}</th>
+            <th >Action</th>
+          </tr>
+        </ng-template>
+        <ng-template pTemplate="body" let-rowData let-columns="columns" let-ind="rowIndex">
+          <tr cdkDrag [cdkDragData]="rowData" (cdkDragStarted)="dragStart($event, rowData, 'cricket')"
+              (cdkDragEnded)="dragEnd($event, rowData, 'cricket')" [pSelectableRow]="rowData" class="draggable-row">
+            <td cdkDragHandle class="drag-icon" style="width:8%">
+              <i class="pi pi-bars"></i>
+            </td>
+            <td *ngFor="let col of columns" pEditableColumn>
+              <p-cellEditor>
+                <ng-template pTemplate="input">
+                  <input pInputText type="text" [(ngModel)]="rowData[col.field]" />
+                </ng-template>
+                <ng-template pTemplate="output">
+                  {{ rowData[col.field] }}
+                </ng-template>
+              </p-cellEditor>
+            </td>
+            <td>
+              <button class="delete-button" (click)="deleteFromCricketTeam(ind, rowData)">Delete</button>
+            </td>
+          </tr>
+        </ng-template>
+      </p-table>
+    </div>
+  </div>
+</div>
+<p-toast></p-toast>

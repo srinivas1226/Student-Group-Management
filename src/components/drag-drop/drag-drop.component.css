@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #2a2d90, #e93c7b);
+  color: white;
+}
+
+.container {
+  padding: 20px;
+}
+
+.rowFlow{
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.table-container {
+  flex: 1;
+  min-width: 200px;
+  background: #e8f0fe;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  color: #333;
+  height: 490px; 
+  display: flex;
+  flex-direction: column;
+}
+
+.table-header {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.p-table-wrapper {
+  flex: 1;
+  overflow-y: auto;
+}
+
+p-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+p-table th,
+p-table td {
+  padding: 12px;
+  text-align: left;
+}
+
+p-table th {
+  background-color: #f2f2f2;
+  color: #333;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+p-table td {
+  background-color: #fff;
+}
+
+p-table tr {
+  cursor: pointer;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+}
+
+p-table tr.dragging {
+  opacity: 0.5;
+}
+
+p-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+p-table tr.drag-over {
+  border: 2px dashed #000;
+}
+
+.delete-button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.delete-button:hover {
+  background-color: #c0392b;
+}
+
+.drag-icon {
+  cursor: move;
+}
+
+.draggable-row {
+  cursor: default;
+}
+
+.drag-icon i {
+  font-size: 18px;
+  color: #555;
+}

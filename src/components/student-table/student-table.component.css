@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #2a2d90, #e93c7b);
+    color: white;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .table-container {
+    flex: 1;
+    min-width: 200px;
+    margin-right: 20px;
+    background: #e8f0fe;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    color: #333;
+    height: 500px; 
+    overflow: hidden; 
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .table-header {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  p-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    flex: 1; 
+    overflow: hidden; 
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .p-table-wrapper {
+  flex: 1;
+  overflow-y: auto;
+}
+  
+  th {
+    background-color: #f2f2f2;
+    color: #333;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  
+  td {
+    background-color: #fff;
+  }
+  
+  .delete-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .delete-button:hover {
+    background-color: #c0392b;
+  }
+  
+  .drag-icon {
+    cursor: move;
+  }
+  
+  .draggable-row {
+    cursor: default;
+  }
+  
+  .drag-icon i {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .p-datatable-scrollable-body {
+    max-height: 100%; 
+    overflow-y: auto; 
+  }
+  
+  .p-datatable-scrollable-body table {
+    margin: 0;
+    padding: 0;
+    border-spacing: 0;
+  }
+  

@@ -1,0 +1,226 @@
+{
+  "students": [
+    {
+      "name": "srinivas",
+      "address": "asd",
+      "phone": "7894561230",
+      "designation": "SE",
+      "email": "ksr@gmai.com",
+      "photo": "C:\\fakepath\\image_2023_08_14T10_29_03_311Z.png",
+      "department": "orange",
+      "password": "123",
+      "id": 1
+    },
+    {
+      "name": "Laura Wilson",
+      "address": "303 Cedar Court",
+      "phone": "5556789012",
+      "designation": "Tester",
+      "email": "laura.wilson@example.com",
+      "photo": "C:\\fakepath\\image_2023_08_14T16_29_03_311Z.png",
+      "department": "blue",
+      "password": "pqr678",
+      "id": 7
+    },
+    {
+      "name": "Robert Lee",
+      "address": "606 Walnut Street",
+      "phone": "5559012345",
+      "designation": "Administrator",
+      "email": "robert.lee@example.com",
+      "photo": "C:\\fakepath\\image_2023_08_14T19_29_03_311Z.png",
+      "department": "yellow",
+      "password": "yz1234",
+      "id": 10
+    },
+    {
+      "name": "Sophia Gonzalez",
+      "address": "707 Chestnut Avenue",
+      "phone": "5550123456",
+      "designation": "Architect",
+      "email": "sophia.gonzalez@example.com",
+      "photo": "C:\\fakepath\\image_2023_08_14T20_29_03_311Z.png",
+      "department": "orange",
+      "password": "abc567",
+      "id": 11
+    },
+    {
+      "name": "William Harris",
+      "address": "808 Sycamore Street",
+      "phone": "5551234560",
+      "designation": "Executive",
+      "email": "william.harris@example.com",
+      "photo": "C:\\fakepath\\image_2023_08_14T21_29_03_311Z.png",
+      "department": "blue",
+      "password": "def890",
+      "id": 12
+    },
+    {
+      "name": "Ava Clark",
+      "address": "909 Aspen Road",
+      "phone": "5552345601",
+      "designation": "Manager",
+      "email": "ava.clark@example.com",
+      "photo": "C:\\fakepath\\image_2023_08_14T22_29_03_311Z.png",
+      "department": "green",
+      "password": "ghi123",
+      "id": 13
+    },
+    {
+      "name": "Henry King",
+      "address": "1010 Poplar Court",
+      "phone": "5553456702",
+      "designation": "Developer",
+      "email": "henry.king@example.com",
+      "photo": "C:\\fakepath\\image_2023_08_14T23_29_03_311Z.png",
+      "department": "red",
+      "password": "jkl456",
+      "id": 14
+    },
+    {
+      "name": "Mia Wright",
+      "address": "1111 Redwood Street",
+      "phone": "5554567803",
+      "designation": "Designer",
+      "email": "mia.wright@example.com",
+      "photo": "C:\\fakepath\\image_2023_08_14T24_29_03_311Z.png",
+      "department": "yellow",
+      "password": "mno789",
+      "id": 15
+    },
+    {
+      "name": "Daniel Lewis",
+      "address": "1212 Hickory Lane",
+      "phone": "5555678904",
+      "designation": "Analyst",
+      "email": "daniel.lewis@example.com",
+      "photo": "C:\\fakepath\\image_2023_08_14T25_29_03_311Z.png",
+      "department": "orange",
+      "password": "pqr012",
+      "id": 16
+    },
+    {
+      "name": "Isabella Young",
+      "address": "1313 Maple Drive",
+      "phone": "5556789015",
+      "designation": "Consultant",
+      "email": "isabella.young@example.com",
+      "photo": "C:\\fakepath\\image_2023_08_14T26_29_03_311Z.png",
+      "department": "blue",
+      "password": "stu345",
+      "id": 17
+    },
+    {
+      "name": "Ethan Allen",
+      "address": "1414 Birch Court",
+      "phone": "5557890126",
+      "designation": "Tester",
+      "email": "ethan.allen@example.com",
+      "photo": "C:\\fakepath\\image_2023_08_14T27_29_03_311Z.png",
+      "department": "green",
+      "password": "vwx678",
+      "id": 18
+    },
+    {
+      "name": "Charlotte Scott",
+      "address": "1515 Cedar Way",
+      "phone": "5558901237",
+      "designation": "Engineer",
+      "email": "charlotte.scott@example.com",
+      "photo": "C:\\fakepath\\image_2023_08_14T28_29_03_311Z.png",
+      "department": "red",
+      "password": "yz9123",
+      "id": 19
+    },
+    {
+      "name": "Alexander Robinson",
+      "address": "1616 Spruce Drive",
+      "phone": "5559012348",
+      "designation": "Coordinator",
+      "email": "alexander.robinson@example.com",
+      "photo": "C:\\fakepath\\image_2023_08_14T29_29_03_311Z.png",
+      "department": "yellow",
+      "password": "abc234",
+      "id": 20
+    },
+    {
+      "name": "Amelia Martinez",
+      "address": "1717 Fir Way",
+      "phone": "5550123459",
+      "designation": "Administrator",
+      "email": "amelia.martinez@example.com",
+      "photo": "C:\\fakepath\\image_2023_08_14T30_29_03_311Z.png",
+      "department": "orange",
+      "password": "def567",
+      "id": 21
+    },
+    {
+      "name": "Michael Brown",
+      "address": "789 Pine Road",
+      "phone": "5553456789",
+      "designation": "Designer",
+      "email": "michael.brown@example.com",
+      "photo": "C:\\fakepath\\image_2023_08_14T13_29_03_311Z.png",
+      "department": "red",
+      "password": "ghi789",
+      "id": 4
+    },
+    {
+      "name": "Olivia Martinez",
+      "address": "505 Fir Way",
+      "phone": "5558901234",
+      "designation": "Coordinator",
+      "email": "olivia.martinez@example.com",
+      "photo": "C:\\fakepath\\image_2023_08_14T18_29_03_311Z.png",
+      "department": "red",
+      "password": "vwx234",
+      "id": 9
+    },
+    {
+      "name": "James Davis",
+      "address": "404 Spruce Drive",
+      "phone": "5557890123",
+      "designation": "Engineer",
+      "email": "james.davis@example.com",
+      "photo": "C:\\fakepath\\image_2023_08_14T17_29_03_311Z.png",
+      "department": "green",
+      "password": "stu901",
+      "id": 8
+    },
+    {
+      "name": "David Johnson",
+      "address": "202 Birch Lane",
+      "phone": "5555678901",
+      "designation": "Consultant",
+      "email": "david.johnson@example.com",
+      "photo": "C:\\fakepath\\image_2023_08_14T15_29_03_311Z.png",
+      "department": "orange",
+      "password": "mno345",
+      "id": 6
+    },
+    {
+      "name": "Emily White",
+      "address": "101 Maple Street",
+      "phone": "5554567890",
+      "designation": "Analyst",
+      "email": "emily.white@example.com",
+      "photo": "C:\\fakepath\\image_2023_08_14T14_29_03_311Z.png",
+      "department": "yellow",
+      "password": "jkl012",
+      "id": 5
+    }
+  ],
+  "cricketList": [
+    {
+      "name": "Jane Smith",
+      "address": "456 Oak Avenue",
+      "phone": "5552345678",
+      "designation": "Developer",
+      "email": "jane.smith@example.com",
+      "photo": "C:\\fakepath\\image_2023_08_14T12_29_03_311Z.png",
+      "department": "green",
+      "password": "def456",
+      "id": 3
+    }
+  ]
+}

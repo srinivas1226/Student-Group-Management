@@ -1,0 +1,23 @@
+<header>
+    <div class="header-left">
+      <h1>Student Group Management</h1>
+    </div>
+    <div class="header-right">
+      <span *ngIf="this.CommonService.groupTable || this.CommonService.studentsTable" class="name">Welcome {{this.CommonService.logedPersonData}} !</span>
+      <button *ngIf="this.CommonService.isLoginBtn" (click)="navigate('login')">Login</button>
+      <button *ngIf="this.CommonService.isLogin" (click)="navigate('register')">Register</button>
+      <button *ngIf="this.CommonService.isLogoutBtn" (click)="navigate('login')">Log Out</button>
+      <button *ngIf="this.CommonService.studentsTable" (click)="navigate('studentTable')">Students Table</button>
+      <button *ngIf="this.CommonService.groupTable" (click)="navigate('groupList')">Group List</button>
+    </div>
+  </header>
+  
+  <main class="main">
+    <router-outlet></router-outlet>
+  </main>
+  
+  <footer>
+    <p>Student Group Management &copy; 2024</p>
+  </footer>
+  <p-toast key="msgs"></p-toast>
+  

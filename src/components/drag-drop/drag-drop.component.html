@@ -1,0 +1,31 @@
+<div class="container">
+  <div class="table-container">
+    <div class="table-header">Student Table</div>
+    <div class="p-table-wrapper">
+    <p-table cdkDropList [columns]="header" [value]="students" scrollHeight="100%" (cdkDropListDropped)="drag($event)">;
+        <ng-template pTemplate="header" let-columns>
+          <tr>
+            <th style="width:4%"></th>
+            <th *ngFor="let col of columns">
+              {{ col.header }}
+            </th>
+            <th style="width:6%">Action</th>
+          </tr>
+        </ng-template>
+        <ng-template pTemplate="body" let-rowData let-columns="columns" let-ind="rowIndex">
+          <tr cdkDrag [pSelectableRow]="rowData" class="draggable-row">
+            <td cdkDragHandle class="drag-icon" style="width:4%">
+              <div >
+                <i class="pi pi-bars"></i>
+              </div>
+            </td>
+            <td *ngFor="let col of columns" class="rowFlow">{{ rowData[col.field] }}</td>
+            <td style="width:6%">
+              <button class="delete-button" (click)="delete(ind)">Delete</button>
+            </td>
+          </tr>
+        </ng-template>
+      </p-table>
+    </div>
+  </div>
+</div>
